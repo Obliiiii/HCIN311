@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+        <link rel="stylesheet" href="css/swiper-bundle.min.css">
+        <link rel="stylesheet" href="styles.css">
+
+        <title>Portfolio</title>
+    </head>
+    <body>
+        <!--==================== HEADER ====================-->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo">Obli</a>
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list grid">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link">
+                                <i class="uil uil-estate nav__icon"></i>Home
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#about" class="nav__link">
+                                <i class="uil uil-user nav__icon"></i>About
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#portfolio" class="nav__link">
+                                <i class="uil uil-scenery nav__icon"></i>Portfolio                                
+                            </a>
+                        </li>   
+                    </ul>
+                    <i class="uil uil-times nav__close" id="nav-close"></i>
+                </div>
+                <div class="nav__btns">
+                    <!-- Theme change button -->
+
+                    <i class="uil uil-moon change-theme" id="theme-button"></i>
+
+                    <div class="nav__toggle" id="nav-toggle">
+                        <i class="uil uil-apps"></i>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <!--==================== MAIN ====================-->
+        <main class="main">
+            <!--==================== HOME ====================-->
+            <section class="home section" id="home">
+                <div class="home__container container grid">
+                    <div class="home__content grid">
+                        <div class="home__social">
+                            <a href="https://www.facebook.com/justin.oblianda" target="_blank" class="home__social-icon">
+                                <i class="uil uil-facebook"></i>
+                            </a>
+                            <a href="https://www.instagram.com/oblii_/" target="_blank" class="home__social-icon">
+                                <i class="uil uil-instagram"></i>
+                            </a>
+                            <a href="https://github.com/Obliiiii" target="_blank" class="home__social-icon">
+                                <i class="uil uil-github-alt"></i>
+                            </a>
+                        </div>
+
+                        <div class="home__img">
+                            <img src="me.jpg" alt="" class="home__blob-img">
+                        </div>
+
+                        <div class="home__data">
+                            <h1 class="home__title">Hi, I'am Justin Oblianda</h1>
+                            <h3 class="home__subtitle">Frontend Developer</h3>
+                            <p class="home__description">I am a dedicated website developer with a strong track record of creating visually stunning and functionally websites that meet the unique needs of my clients and leave a lasting impact on their online presence.</p>
+                            <a href="#footer" class="button button--flex home__button">
+                                Hire Me!<i class="uil uil-message button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+            <!--==================== ABOUT ====================-->
+            <section class="about section" id="about">
+                <h2 class="section__title">About Me</h2>
+                <span class="section__subtitle">My Introduction</span>
+
+                <div class="about__container container grid">
+                    <img src="me1.jpg" alt="" class="about__img">
+                    <div class="about__data">
+                        <p class="about__description">
+                            I'm Justin Oblianda 20 Years Old, Studying Information Technology in Our Lady of Fatima University.
+                            As a newcomer to the world of website development, I am fueled by a strong desire to learn and grow in this dynamic field. 
+                            My journey began with a deep fascination for the digital realm, which drove me to embark on a path of self-improvement and exploration. 
+                            While I may be considered a novice, my determination to acquire proficiency in coding, design, and user experience principles is unwavering. 
+                            I view every project as an opportunity to challenge myself, to push beyond my comfort zone, and to acquire new skills and knowledge. 
+                            I believe that my fresh perspective and enthusiasm bring a unique flavor to each project I undertake. 
+                            With a commitment to continuous learning and a hunger for innovation, 
+                            I am excited to evolve and develop my capabilities as a website developer, 
+                            contributing to the ever-evolving landscape of web technology.
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+        <!--==================== PORTFOLIO ====================-->
+        <section class="portfolio section1" id="portfolio">
+
+            <h2 class="section__title">Portfolio</h2>
+            <span class="section__subtitle">Most recent works</span>
+
+            <div class="portfolio__container container swiper-container">
+                <div class="swiper-wrapper">
+        <!--==================== PORTFOLIO 1 ====================-->
+        
+            <div class="portfolio__content grid swiper-slide">
+                <img src="pcware.png" alt="" class="portfolio__img">
+
+                <div class="portfolio_">
+                    <h3 class="portfolio__title">PC WARE (2nd Year College Group Project)</h3>
+                    <p class="portfolio__description">An E-Commerce website that can help you find the best computer components.</p>
+                    <a href="https://obliiiii.github.io/website/pcware.html" class="button button--flex button--small portfolio__button">
+                        Demo
+                        <i class="uil uil-arrow-right button__icon"></i>
+                    </a>
+                </div>
+            </div>
+
+            <!--==================== PORTFOLIO 2 ====================-->
+        
+            <div class="portfolio__content grid swiper-slide">
+                <img src="greenpeace.png" alt="" class="portfolio__img">
+
+                <div class="portfolio_">
+                    <h3 class="portfolio__title">GreenPeace (2nd Year College Group Project )</h3>
+                    <p class="portfolio__description">A website that raises awareness about the environment.</p>
+                    <a href="#" class="button button--flex button--small portfolio__button">
+                        Demo
+                        <i class="uil uil-arrow-right button__icon"></i>
+                    </a>
+                </div>
+            </div>
+            <!--==================== PORTFOLIO 3 ====================-->
+        
+            <div class="portfolio__content grid swiper-slide">
+                <img src="shap.png" alt="" class="portfolio__img">
+
+                <div class="portfolio_">
+                    <h3 class="portfolio__title">SHAP (2nd Year College Group Project) Reactjs</h3>
+                    <p class="portfolio__description">An e-commerce website where you can find the best shoes you want.</p>
+                    <a href="#" class="button button--flex button--small portfolio__button">
+                        Demo
+                        <i class="uil uil-arrow-right button__icon"></i>
+                    </a>
+                </div>
+            </div>
+                </div>
+
+            <!-- add arrows-->
+            <div class="swiper-button-next">
+                <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+            </div>
+
+            <div class="swiper-button-prev">
+                <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+            </div>
+
+            <!-- Add Pagination -->
+            <div class="swiper-pagination"></div>
+            
+        
+        </div>
+
+        </section>
+
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer" id="footer">
+
+        <div class="footer__bg">
+            <div class="footer__container container grid">
+                <div>
+                    <h1 class="footer__title">Justin Oblianda</h1>
+                    <span class="footer__subtitle">@obliandajustinn@gmail.com</span>
+                </div>
+
+                <div class="footer__socials">
+                    <a href="https://www.facebook.com/justin.oblianda" target="_blank" class="footer__social">
+                        <i class="uil uil-facebook"></i>
+                    </a>
+                    <a href="https://www.instagram.com/oblii_/" target="_blank" class="footer__social">
+                        <i class="uil uil-instagram"></i>
+                    </a>
+                    <a href="https://github.com/Obliiiii" target="_blank" class="footer__social">
+                        <i class="uil uil-github-alt"></i>
+                    </a>
+                </div>
+                
+                <p class="footer__copy">&#169; All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
